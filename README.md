@@ -2,7 +2,7 @@
 
 **Student:** Anna Maria Lima da Silva  
 **Professor:** Otávio Lube dos Santos  
-**Subject:** Mobile Development 
+**Subject:** Mobile Development  
 **Class:** CC3M (2023/2)  
 **Institution:** University of Vila Velha  
 
