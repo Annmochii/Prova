@@ -7,7 +7,7 @@
 
 --- 
 
-A mobile developing project, where the goal is to build fully fully-functional page using React Native
+A mobile developing project, where the goal is to build fully fully-functional landing page using React Native
 
 > Used Frameworks / Platforms:  
     ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
