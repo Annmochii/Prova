@@ -4,11 +4,11 @@ import { useFonts } from 'expo-font';
 import { Icon } from 'react-native-elements';
 import { useState } from 'react';
 import { DefaultButton } from '../../components/DefaultButton/index.js'
-import { NavBar } from '../../components/NavBar/index.js'
-import { IconButton } from '../../components/IconButton/index.js'
-import { BackArrow } from '../../components/BackArrow/index.js'
-import { InputKey } from '../../components/InputKey/index.js'
-import { InputText } from '../../components/InputText/index.js'
+import { NavBar } from '../../components/NavBar/index.js';
+import { IconButton } from '../../components/IconButton/index.js';
+import { BackArrow } from '../../components/BackArrow/index.js';
+import { InputKey } from '../../components/InputKey/index.js';
+import { InputText } from '../../components/InputText/index.js';
 import { Link } from '@react-navigation/native';
 
 
@@ -20,7 +20,7 @@ export default function ForgotPasswordPage({ navigation }) {
     <View style={styles.GlobalContainer}>
       <View style={styles.TopContainer}>
         <NavBar style={styles.Nav}></NavBar>
-        <Link to={{ screen: 'SignIn' }}>
+        <Link to={{ screen: 'Login' }}>
           <BackArrow/>
         </Link>
       </View>

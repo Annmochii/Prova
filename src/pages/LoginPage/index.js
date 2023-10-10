@@ -1,11 +1,17 @@
+import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { Link } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
 import styles from './styles.js';
-import { DefaultButton } from '../../components/DefaultButton/index.js'
+import { DefaultButton } from '../../components/DefaultButton/index.js';
+import { NavBar } from '../../components/NavBar/index.js';
+import { IconButton } from '../../components/IconButton/index.js';
+import { BackArrow } from '../../components/BackArrow/index.js';
+import { InputKey } from '../../components/InputKey/index.js';
+import { InputText } from '../../components/InputText/index.js';
 
-export default function LoginPage() { 
+export default function LoginPage({ navigation }) { 
 
   return (
     <View style={styles.GlobalContainer}>
@@ -19,8 +25,8 @@ export default function LoginPage() {
           </View>
         </View>
         <View style={styles.Container}>
-          <InputText label='Endereço de E-mail:' placeholder='seuemail@exemplo.com' onChangeText={setEmail} value={email}></InputText>
-          <InputKey label='Senha:' placeholder='Digite sua senha' secure={true} onChangeText={setPassword} value={password}></InputKey>
+          <InputText label='Endereço de E-mail:' placeholder='seuemail@exemplo.com' ></InputText>
+          <InputKey label='Senha:' placeholder='Digite sua senha' secure={true}  ></InputKey>
           <View style={styles.Forgot}>
             <Text style={styles.Hiperlink}><Link to={{ screen: 'ForgotPassword' }}>Esqueci minha senha</Link></Text> 
           </View>

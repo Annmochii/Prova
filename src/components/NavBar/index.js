@@ -34,7 +34,7 @@ export function NavBar(props){
   return(
     <View style={styles.Container}>
       <View style={styles.LeftContainer} >
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>navigation.navigate('Main')}>
           <Icon 
               name={"home"}
               color={'#26262B'}

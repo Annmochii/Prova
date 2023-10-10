@@ -18,17 +18,23 @@ export function IconButton(props){
             fontSize: '14px',
             fontFamily: 'PoppinsMedium',
             height: 36,
+        },
+        TextButton: {
+            color: '#F7F7F7',
+            fontSize: '14px',
+            fontFamily: 'PoppinsMedium',
         }
     });
     
     return (
-        <TouchableOpacity style={styles.DefaultButton}>
+        <TouchableOpacity style={styles.DefaultButton} onPress={props.onPress}>
             <Icon 
                 name={'person' }
                 color={'#F7F7F7'}
                 size={17}
             />
-            {props.valor}</TouchableOpacity>
+            <Text style={styles.TextButton}>{props.valor}</Text>
+        </TouchableOpacity>
     )
 }
 

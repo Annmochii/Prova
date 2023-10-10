@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     * Coral Red: #F86041
     * Off-White: #F7F7F7
     * Dark Purple: #26262B
-    * Blue: 38A2FF
+    * Blue: #38A2FF
     */
     flex: 1,
     backgroundColor: '#F7F7F7',
@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
   },
   Foto: {
     width: "100%",
+    height: "300px",
   },
   MainContainer: {
     paddingInline: '0.5rem',
@@ -30,6 +31,12 @@ const styles = StyleSheet.create({
   },
   Nav: {
     marginTop: 0,
+  },
+  SubTitle: {
+    fontFamily: 'MerriweatherLight',
+    color: '#26262B',
+    fontSize: 18,
+    marginBottom: 24,
   }
 });
 

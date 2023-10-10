@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
     * Coral Red: #F86041
     * Off-White: #F7F7F7
     * Dark Purple: #26262B
+    * Blue: #38A2FF
     */
     gap: 98,
     flex: 1,
@@ -21,13 +22,13 @@ const styles = StyleSheet.create({
   },
   MainContainer:{
     width: '100%',
-    gap: 38,
+    gap: '38px',
     paddingInline: '0.5rem',
   },
   Container: {
     gap: '16px',
     width: '100%',
-    marginBottom: 29,
+    marginBottom: '92px',
   },
   Hero: {
     gap: '12px',
@@ -53,7 +54,7 @@ const styles = StyleSheet.create({
   },
   Hiperlink: {
     fontFamily: 'MerriweatherRegular',
-    color: '#F86041',
+    color: '#38A2FF',
     textDecorationLine: 'underline',
   },
   Checkbox: {

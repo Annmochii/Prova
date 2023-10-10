@@ -9,8 +9,9 @@ const styles = StyleSheet.create({
     * Coral Red: #F86041
     * Off-White: #F7F7F7
     * Dark Purple: #26262B
+    * Blue: #38A2FF
     */
-    paddingInline: '0.5rem',
+    gap: 98,
     flex: 1,
     backgroundColor: '#F7F7F7',
     alignItems: 'center',
@@ -51,7 +52,7 @@ const styles = StyleSheet.create({
   },
   Hiperlink: {
     fontFamily: 'MerriweatherRegular',
-    color: '#F86041',
+    color: '#38A2FF',
     textDecorationLine: 'underline',
   },
   Forgot: {

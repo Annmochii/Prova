@@ -4,6 +4,7 @@ import { useFonts } from 'expo-font';
 import { Icon } from 'react-native-elements';
 import { useState } from 'react';
 import { Link } from '@react-navigation/native';
+import { DefaultButton } from '../../components/DefaultButton/index.js';
 import { NavBar } from '../../components/NavBar/index.js'
 import { IconButton } from '../../components/IconButton/index.js'
 import { BackArrow } from '../../components/BackArrow/index.js'
@@ -11,7 +12,7 @@ import { InputKey } from '../../components/InputKey/index.js'
 import { InputText } from '../../components/InputText/index.js'
 import styles from './styles'
 
-export default function SignUpPage() {
+export default function SignUpPage({ navigation }) {
 
   return (
     <View style={styles.GlobalContainer}>
@@ -21,7 +22,7 @@ export default function SignUpPage() {
           <Text style={styles.Title}>Registre-se</Text>
           <View style={styles.Link}>
             <Text style={styles.Text}>Já possui uma conta? </Text>
-            <Text style={styles.Hiperlink}><Link to={{ screen: 'SignIn' }}>Entre aqui</Link></Text>
+            <Text style={styles.Hiperlink}><Link to={{ screen: 'Login' }}>Entre aqui</Link></Text>
           </View>
         </View>
         <View style={styles.Container}>
